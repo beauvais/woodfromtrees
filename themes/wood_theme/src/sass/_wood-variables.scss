@@ -1,0 +1,29 @@
+//colours
+
+$warmgrey: rgba(245, 242, 240, 0.9);
+$stonegrey: rgba(189, 172, 154, 0.8);
+$leafgreen: rgba(169, 194, 31, 0.9);
+$shadowbrown: rgba(41, 31, 14, 0.8);
+
+.hero-body {
+    .title {
+        color: $warmgrey;
+        .title-wrap {
+            background-color: $shadowbrown;
+        }
+    }
+}
+
+.subtitle {
+    color: $shadowbrown;
+}
+
+$primary: $warmgrey;
+
+.is-green {
+    color: $leafgreen;
+}
+
+a {
+    color: $leafgreen;
+}

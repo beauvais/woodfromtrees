@@ -1,0 +1,73 @@
+{{ define "main"}}
+
+<header class="hero is-small">
+    <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
+        
+
+    <div class="hero-body">
+
+        <div class="container has-text-centered">
+            <h1 class="title is-1"><span class="title-wrap">{{ if isset .Params "subtitle" }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}</span></h1>
+            
+        </div>
+    
+    
+    </div>
+    <div class="hero-foot has-text-centered">
+        
+    </div>
+</header>
+<!-- <header class="hero">
+    {{ if isset .Params "subtitle" }}
+        <h2 class="subtitle is-2">
+            {{ .Params.subtitle }}
+        </h2>
+    {{ else }}
+        <h2 class="subtitle is-2">
+            {{ .Title }}
+        </h2>
+    {{ end }}
+    
+    </header> --> 
+    <section class="section">
+        <div class="container">
+            {{ .Content }}
+        </div>
+        
+    </section>
+    <section class="section">
+    <div class="container">
+        
+    
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-4">
+            <article class="tile is-child is-primary">
+                <h2 class="title">Left tile</h2>
+                <p>The text of a left-hand tile</p>
+                
+            </article>
+        </div>
+            <div class="tile is-parent is-4">
+                <article class="tile is-child is-primary">
+
+                        <h2 class="title">Middle tile</h2>
+                        <p>The text of a middle tile</p>
+
+                </article>
+            </div>
+            <div class="tile is-parent is-4">
+                <article class="tile is-child is-primary">
+
+                        <h2 class="title">Right tile</h2>
+                        <p>The text of a right-hand tile</p>
+
+                    
+                </article>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</section>
+{{ end }}

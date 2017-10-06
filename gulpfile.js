@@ -10,12 +10,13 @@ const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 
 const stylesDestDirectory = 'static/css';
+
 gulp.task('watch', () => {
-  gulp.watch('themes/osprey/static/styles/scss/**/*.scss', ['styles']);
+  gulp.watch('themes/wood_theme/src/sass/**/*.scss', ['styles']);
 });
 
 gulp.task('styles', ['clean:styles'], () =>
-  gulp.src('themes/osprey/static/styles/scss/**/*.scss')
+  gulp.src('themes/wood_theme/src/sass/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({
       importer: nodeSassMagicImporter(),
