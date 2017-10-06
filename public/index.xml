@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wood from Trees</title>
+    <link>/</link>
+    <description>Recent content on Wood from Trees</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 24 Sep 2017 11:12:34 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bowls</title>
+      <link>/products/bowls/</link>
+      <pubDate>Mon, 25 Sep 2017 11:23:23 -0400</pubDate>
+      
+      <guid>/products/bowls/</guid>
+      <description>I turn bowls from green wood on a lathe powered by feet.</description>
+    </item>
+    
+    <item>
+      <title>Spoons</title>
+      <link>/products/spoons/</link>
+      <pubDate>Mon, 25 Sep 2017 11:23:13 -0400</pubDate>
+      
+      <guid>/products/spoons/</guid>
+      <description>Hand-carved wooden spoons Each spoon is carved by hand with an axe from a fresh hardwood log.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 24 Sep 2017 11:12:34 -0400</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Green woodcraft by Zach Beauvais I start every one of my projects with a tree. If I&amp;rsquo;m lucky, I get to fell it, but sometimes, I collect up a fresh log. I split green logs with a froe, axe, and wedges. The resulting planks (called billets) then face a carving axe for rough shaping.
+Once the shape is roughed out, I move on to refining with straight blades and hook knives (which let me hollow out bowls).</description>
+    </item>
+    
+  </channel>
+</rss>
