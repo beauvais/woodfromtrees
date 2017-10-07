@@ -1,57 +1,46 @@
 {{ define "main"}}
 <section class="hero is-fullheight video">
-    <div class="hero-video">
-        <video playsinline autoplay muted loop poster="images/carving_hero.jpg">
-            <source src="videos/carving_hero.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title is-1"><span class="title-wrap">{{ .Site.Title }}</span></h1>
+    
+        <div class="hero-video overlain">
+            <video playsinline autoplay muted loop poster="images/carving_hero.jpg">
+                <source src="videos/carving_hero.mp4" type="video/mp4">
+            </video>
         </div>
-    </div>
-    <div class="hero-foot has-text-centered">
-        
-    </div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1"><span class="title-wrap">{{ .Site.Title }}</span></h1>
+            </div>
+        </div>
+        <div class="hero-foot has-text-centered">
+        </div>
+    
 </section>
 <section class="section">
     <div class="container">
-<!--         <h2 class="subtitle is-2">{{ .Params.subtitle }}</h2> -->
-<!--         {{ range .Data.Pages }}
-            {{if eq .Type "index" }} 
-        {{.Content}}
-        {{end}}
-        {{end}} -->
         <hr>
     </div>
 </section>
 <section class="section">
     <div class="container">
-        
-    
-    <div class="tile is-ancestor">
-        <div class="tile is-parent is-4">
-            <article class="tile is-child is-primary">
-                <img class="image" src="tiles/spoon-axe.jpg" alt="photo of a spoon with axe">
-                <h2 class="title">Carving spoons with axes</h2>
-                <p>Axes let me take away bits that aren't spoons.</p>
-                
-            </article>
-        </div>
+        <div class="tile is-ancestor">
             <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary">
-
-                        <h2 class="title">Middle tile</h2>
-                        <p>The text of a middle tile</p>
-
+                <article class="tile is-child is-primary has-background-image">
+                    <img class="image" src="tiles/spoon-axe.jpg" alt="photo of a spoon with axe">
+                    <h2 class="title">Carving spoons with axes</h2>
+                    <p>Axes let me take away bits that aren't spoons.</p>
+                    
                 </article>
             </div>
             <div class="tile is-parent is-4">
                 <article class="tile is-child is-primary">
-
-                        <h2 class="title">Right tile</h2>
-                        <p>The text of a right-hand tile</p>
-
+                    <h2 class="title">Middle tile</h2>
+                    <p>The text of a middle tile</p>
+                </article>
+            </div>
+            <div class="tile is-parent is-4">
+                <article class="tile is-child is-primary">
+                    <h2 class="title">Right tile</h2>
+                    <p>The text of a right-hand tile</p>
                     
                 </article>
             </div>
@@ -59,6 +48,5 @@
         </div>
         
     </div>
-
 </section>
 {{ end }}
