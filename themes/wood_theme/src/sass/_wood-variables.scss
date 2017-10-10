@@ -5,12 +5,20 @@ $stonegrey: rgba(189, 172, 154, 0.8);
 $leafgreen: rgba(169, 194, 31, 0.9);
 $shadowbrown: rgba(41, 31, 14, 1);
 
+#wood-video {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-body {
     .title {
         color: $warmgrey;
+
         // .title-wrap {
         //     background-color: $shadowbrown;
         // }
+   
     }
 }
 
