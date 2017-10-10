@@ -4,34 +4,15 @@ $warmgrey: rgba(245, 242, 240, 0.9);
 $stonegrey: rgba(189, 172, 154, 0.8);
 $leafgreen: rgba(169, 194, 31, 0.9);
 $shadowbrown: rgba(41, 31, 14, 1);
+$white: rgba(256, 256, 256, 1);
 
-#wood-video {
-    align-items: stretch;
-    display: flex;
-    flex-direction: column;
+.has-hero-image {
+    background-image: url("/images/tree-hero.jpg");
 }
 
-.hero-body {
-    .title {
-        color: $warmgrey;
-
-        // .title-wrap {
-        //     background-color: $shadowbrown;
-        // }
-   
-    }
-}
-
-.subtitle {
-    color: $shadowbrown;
+.wood-title {
+    @extend .title;
+    color: $white;
 }
 
 $primary: $warmgrey;
-
-.is-green {
-    color: $leafgreen;
-}
-
-a {
-    color: $leafgreen;
-}

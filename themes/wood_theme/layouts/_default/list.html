@@ -1,22 +1,6 @@
 {{ define "main"}}
+{{ partial "hero-node" . }}
 
-<header class="hero is-small">
-    <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
-        
-
-    <div class="hero-body">
-
-        <div class="container has-text-centered">
-            <h1 class="title is-1"><span class="title-wrap">{{ if isset .Params "subtitle" }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}</span></h1>
-            
-        </div>
-    
-    
-    </div>
-    <div class="hero-foot has-text-centered">
-        
-    </div>
-</header>
     <section class="section">
         <div class="container">
 
