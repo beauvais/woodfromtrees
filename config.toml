@@ -6,8 +6,8 @@ languageCode = "en-GB"
 config = "config.toml"
 theme = "wood_theme"
 canonifyURLS = true
-# googleAnalytics = ""
+googleAnalytics = "UA-107957056-1"
 # disqusShortname = ""
 # disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 [Params]
-    herotitle = "This is wood from trees."
+    herotitle = "Wooden spoons and bowls grow on trees."

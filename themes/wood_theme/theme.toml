@@ -3,16 +3,16 @@
 
 name = "wood_theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://woodfromtrees.com/"
-tags = []
-features = []
+licenselink = "https://github.com/beauvais/woodfromtrees/blob/master/themes/wood_theme/LICENSE.md"
+description = "A theme for a handmade craft shop using the Bulma CSS framework"
+homepage = "https://github.com/beauvais/woodfromtrees/tree/master/themes/wood_theme"
+tags = [handmade, craft, project, Bulma, SASS]
+features = [Bulma, scss, SASS]
 min_version = "0.25.1"
 
 [author]
   name = "Zach Beauvais"
-  homepage = ""
+  homepage = "https://zachbeauvais.com"
 
 # If porting an existing theme
 [original]
