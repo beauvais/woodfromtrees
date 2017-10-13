@@ -1,4 +1,9 @@
 
+# Stories
+---
+
+
+## Green woodworking
 
 ---
 
@@ -12,3 +17,32 @@ Whether it's a spoon or bowl, I use a sharp axe to slice and chop away the bits 
 ---
 
 Once I've got my blank, I use a crook knife (rounded like a hook) to hollow out the spoon bowl. Then, I use a straight blade to shape the rest. After the spoon's dried out for a day or two, I finish it off with a very sharp blade. This leaves a tooled finish that's smooth and durable instead of scratched and fuzzy like a sanded surface.
+
+## Wooden ware
+---
+
+**Themes**
+
+* Useful
+* Beautiful
+* Wooden
+    - Warm
+    - Traditional
+    - Feels good to use
+* Skillfully made
+    - Not mass produced
+    - Uses simple materials
+
+### Spoons
+---
+
+
+
+### Bowls
+---
+
+
+
+### Kuksas
+---
+

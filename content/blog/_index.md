@@ -1,7 +1,8 @@
 ---
 title: "Wood from Trees blog"
 date: 2017-09-24T11:12:34-04:00
-draft: false
+draft: true
+
 subtitle: "Green woodcraft by Zach Beauvais"
 ---
 

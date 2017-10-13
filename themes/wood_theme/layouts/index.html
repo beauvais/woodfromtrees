@@ -1,55 +1,8 @@
 {{ define "main"}}
 {{ partial "hero-image" . }}
-<section id="about" class="section is-medium">
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-8">
-                <div class="content">
-                    <h2 class="title">I'm Zach Beauvais.</h2>
-                    <h3 class="subtitle">I make useful things from trees.</h3>
-                    
-                    <p>I start every one of my projects with a tree. If I'm lucky, I get to fell it, but sometimes, I collect up a fresh log. I split green logs with a froe, axe, and wedges. The resulting planks (called billets) then face a carving axe for rough shaping.</p>
-                    <p>Once the shape is roughed out, I move on to refining with straight blades and hook knives (which let me hollow out bowls).</p>
-                    <p>I don't use sandpaper or other abrasives, so everything is tool-finished. This leaves a durable, smooth surface that weathers better than abraded wood which can tear or fluff up when soaked.</p>
-                    <p>I design and make things to be used, even if they might be good to look at.</p>
-                </div>
-            </div>
-            <div class="column is-3">
-                <!-- <div class="image is-square"> -->
-                <img id="zb" src="images/about/zb.png">
-                <!-- </div> -->
-            </div>
-        </div>
-    </div>
-</section>
-{{ partial "video" .}}
-<section class="section is-medium">
-    <div class="container">
-        <div class="tile is-ancestor">
-            <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary has-background-image">
-                    <img class="image" src="tiles/spoon-axe.jpg" alt="photo of a spoon with axe">
-                    <h2 class="title">Carving spoons with axes</h2>
-                    <p>Axes let me take away bits that aren't spoons.</p>
-                    
-                </article>
-            </div>
-            <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary">
-                    <h2 class="title">Middle tile</h2>
-                    <p>The text of a middle tile</p>
-                </article>
-            </div>
-            <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary">
-                    <h2 class="title">Right tile</h2>
-                    <p>The text of a right-hand tile</p>
-                    
-                </article>
-            </div>
-            
-        </div>
-        
-    </div>
-</section>
+{{ partial "top-section" . }}
+{{ partial "video" . }}
+{{ partial "about" . }}
+{{ partial "three-tiles" . }}
+
 {{ end }}
