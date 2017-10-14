@@ -10,4 +10,4 @@ googleAnalytics = "UA-107957056-1"
 # disqusShortname = ""
 # disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 [Params]
-    herotitle = "Spoons and bowls grow on trees."
+    herotitle = "Spoons grow on trees."
