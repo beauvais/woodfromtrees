@@ -1,75 +1,30 @@
-<section class="hero">
+<header class="hero is-halfheight">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div id="navbarMenuHeroA" class="navbar-menu is-transparent">
-          <div class="navbar-end">
-            <a href="{{ .Site.BaseURL }}" class="navbar-item is-active">
-              Home
-            </a>
-            <a href="{{ .Site.BaseURL }}products/" class="navbar-item">
-              Woodcraft
-            </a>
-            <a href="{{ .Site.BaseURL }}blog/" class="navbar-item">
-              Blog
-            </a>
-            <span class="navbar-item">
-              <a href="https://www.etsy.com/shop/WoodFromTrees" class="button is-green">
-                <span class="icon">
-                  <i class="fa fa-etsy"></i>
-                </span>
-                <span>Etsy Shop</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </nav>
+    {{ partial "nav" .}}
   </div>
-
-  <!-- Hero content: will be in the middle -->
-
   <div class="hero-body">
-     <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
+    <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
     <div class="container has-text-centered">
       <h1 class="title has-white-text is-1">
-        {{ .Title }}
+      {{ .Title }}
       </h1>
     </div>
   </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <!-- <div class="hero-foot">
-    <nav class="tabs">
-      <div class="container">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div> -->
-</section>
-<!-- 
+</header>
+<!--
 <header class="hero is-small">
-    <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
-        
-
-    <div class="hero-body">
-
-        <div class="container has-text-centered">
-            <h1 class="title is-1"><span class="title-wrap">{{ if isset .Params "subtitle" }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}</span></h1>
-            
-        </div>
+  <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
+  
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1"><span class="title-wrap">{{ if isset .Params "subtitle" }}{{ .Params.subtitle }}{{ else }}{{ .Title }}{{ end }}</span></h1>
+      
+    </div>
     
     
-    </div>
-    <div class="hero-foot has-text-centered">
-        
-    </div>
+  </div>
+  <div class="hero-foot has-text-centered">
+    
+  </div>
 </header> -->

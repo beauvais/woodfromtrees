@@ -1,8 +1,11 @@
 {{ define "main"}}
 {{ partial "hero-node" . }}
 
-    <div class="container">
-        
+<div class="container">
+    
+    {{ range .Data.Pages }}
+    {{ .Render "summary"}}
+    {{ end }}
     
     <div class="tile is-ancestor">
         <div class="tile is-parent is-4">
@@ -12,27 +15,22 @@
                 
             </article>
         </div>
-            <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary">
-
-                        <h2 class="title">Middle tile</h2>
-                        <p>The text of a middle tile</p>
-
-                </article>
-            </div>
-            <div class="tile is-parent is-4">
-                <article class="tile is-child is-primary">
-
-                        <h2 class="title">Right tile</h2>
-                        <p>The text of a right-hand tile</p>
-
-                    
-                </article>
-            </div>
-            
+        <div class="tile is-parent is-4">
+            <article class="tile is-child is-primary">
+                <h2 class="title">Middle tile</h2>
+                <p>The text of a middle tile</p>
+            </article>
+        </div>
+        <div class="tile is-parent is-4">
+            <article class="tile is-child is-primary">
+                <h2 class="title">Right tile</h2>
+                <p>The text of a right-hand tile</p>
+                
+            </article>
         </div>
         
     </div>
-
+    
+</div>
 </section>
 {{ end }}

@@ -1,38 +1,25 @@
-<nav class="nav">
-            <div class="container">
-                <div class="nav-left">
-                    <a class="nav-item logo" href="/" title="home">Wood from Trees</a>
-                </div>
-                <span class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+<nav class="navbar">
+    <div class="container is-fullwidth">
+        <div id="navbarMenuHeroA" class="navbar-menu is-transparent">
+            <div class="navbar-end">
+                <a href="{{.Site.BaseURL | relURL}}" class="navbar-item is-active">
+                    Home
+                </a>
+                <a href="green-woodworking" class="navbar-item">
+                    Green Woodworking
+                </a>
+                <a href="blog/" class="navbar-item">
+                    Blog
+                </a>
+                <span class="navbar-item">
+                    <a href="https://www.etsy.com/shop/WoodFromTrees" class="button is-green">
+                        <span class="icon">
+                            <i class="fa fa-etsy"></i>
+                        </span>
+                        <span>Etsy Shop</span>
+                    </a>
                 </span>
-                <div class="nav-right nav-menu">
-                    <a class="nav-item is-active">
-                        Home
-                    </a>
-                    <a href="blog/" class="nav-item">
-                        Blog
-                    </a>
-                    <a href="products/" class="nav-item">
-                        Products
-                    </a>
-                    <a href="#about" class="nav-item">
-                        About
-                    </a>
-                    <span class="nav-item">
-                        <a href="https://www.etsy.com/shop/WoodFromTrees" class="button is-info is-inverted">
-                            <span class="icon">
-                                <i class="fa fa-etsy"></i>
-                            </span>
-                            <span>Etsy shop</span>
-                        </a>
-                    </span>
-                    
-                </div>
-                
-                </nav><!-- /header -->
-                
             </div>
-        </nav>
+        </div>
+    </div>
+</nav>

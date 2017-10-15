@@ -1,40 +1,17 @@
-<section class="hero has-hero-image is-fullheight">
+<header class="hero has-hero-image is-fullheight">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-    <nav class="navbar">
-      <div class="container is-fullwidth">
-        <div id="navbarMenuHeroA" class="navbar-menu is-transparent">
-          <div class="navbar-end">
-            <a href="/" class="navbar-item is-active">
-              Home
-            </a>
-            <a href="green-woodworking" class="navbar-item">
-              Green Woodworking
-            </a>
-            <a href="blog/" class="navbar-item">
-              Blog
-            </a>
-            <span class="navbar-item">
-              <a href="https://www.etsy.com/shop/WoodFromTrees" class="button is-green">
-                <span class="icon">
-                  <i class="fa fa-etsy"></i>
-                </span>
-                <span>Etsy Shop</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </nav>
+    {{ partial "nav" .}}
   </div>
-
-  <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div id="hero-title" class="container has-text-centered">
       <h1 class="title has-white-text is-1">
         {{ .Site.Params.herotitle }}
       </h1>
     </div>
+  </div>
+  <div class="hero-footer">
+    
   </div>
 
   <!-- Hero footer: will stick at the bottom -->
@@ -52,4 +29,4 @@
       </div>
     </nav>
   </div> -->
-</section>
+</header>
