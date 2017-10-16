@@ -1,14 +1,14 @@
-<header class="hero is-halfheight">
+<header class="hero is-halfheight" style='background-image:url({{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else}}"/images/general-banner.jpg"{{ end }});'>
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
-    {{ partial "nav" .}}
+    {{ partial "nav" . }}
   </div>
   <div class="hero-body">
-    <img src={{ if isset .Params "banner" }}"/images/{{ .Params.banner }}"{{ else }}"/images/general-banner.jpg"{{ end }} alt="banner image">
     <div class="container has-text-centered">
       <h1 class="title has-white-text is-1">
       {{ .Title }}
       </h1>
+      
     </div>
   </div>
 </header>
