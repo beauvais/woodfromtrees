@@ -6,3 +6,4 @@ subtitle: "Woodcraft from trees"
 banner: "bowls/bowls-header.jpg"
 ---
 
+This is content for wooden ware.

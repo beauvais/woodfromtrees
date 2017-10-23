@@ -1,0 +1,24 @@
+{{ define "main"}}
+{{ partial "hero-node" . }}
+<section class="section is-small">
+    <div class="content">
+        {{ .Content }}
+    </div>
+</section>
+
+<section class="section is-small">
+    <div class="container is-centered">
+        <div class="tile is-ancestor">
+        {{ range .Data.Pages }}
+        <a href="{{.Permalink}}" title="{{.Title}}">
+            <div class="tile box is-child">
+                {{ if isset .Params "thumbnail" }}<img src="/images/{{ .Params.thumbnail }}" alt="{{.Title}}">{{ else }}<img src="/images/home/bowls.jpg" alt="{{.Title}}">{{end}}
+                <h2 class="title">{{.Title}}</h2>
+                {{ if isset .Params "subtitle" }} <h3>{{ .Params.subtitle }}</h3>{{end}}
+            </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
