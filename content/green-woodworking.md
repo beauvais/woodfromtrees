@@ -1,7 +1,7 @@
 ---
 title: "Green Woodworking"
 date: 2017-10-11T15:06:57-04:00
-draft: true
+draft: false
 subtitle: "Crafting wood from trees"
 # banner: ""
 ---
