@@ -6,6 +6,7 @@ languageCode = "en-GB"
 config = "config.toml"
 theme = "wood_theme"
 canonifyURLS = false
+relativeURLs = true
 googleAnalytics = "UA-107957056-1"
 # disqusShortname = ""
 # disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
