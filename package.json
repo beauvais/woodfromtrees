@@ -20,7 +20,7 @@
     "uncss": "^0.15.0"
   },
   "scripts": {
-    "start": "concurrently 'gulp' 'hugo server --buildDrafts' 'open http://localhost:1313'",
+    "start": "concurrently 'gulp' 'hugo server --buildDrafts --bind '0.0.0.0' --baseURL 192.168.0.3' 'open http://localhost:1313'",
     "build": "hugo && gulp build"
   },
   "repository": {
