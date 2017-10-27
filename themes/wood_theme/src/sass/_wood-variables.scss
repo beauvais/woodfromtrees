@@ -14,7 +14,9 @@ $white: rgba(256, 256, 256, 1);
 }
 
 .has-hero-image {
+    @extend .hero;
     background-image: url("/images/tree-hero.jpg");
+    background-repeat: none;
 }
 
 .hero-node {
