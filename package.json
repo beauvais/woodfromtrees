@@ -20,13 +20,13 @@
     "uncss": "^0.15.0"
   },
   "scripts": {
-    "start": "concurrently 'gulp' 'hugo server --buildDrafts --bind '0.0.0.0' --baseURL 192.168.0.3' 'open http://localhost:1313'",
+    "start": "concurrently 'gulp' 'hugo server --theme=wood_theme --buildDrafts --bind '0.0.0.0' --baseURL 192.168.0.3' 'open http://localhost:1313'",
     "build": "hugo && gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "/Users/zach/Documents/woodfromtrees/"
+    "url": "https://github.com/beauvais/woodfromtrees"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Zach Beauvais",
+  "license": "MIT"
 }

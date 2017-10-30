@@ -6,16 +6,33 @@ $leafgreen: rgba(169, 194, 31, 0.9);
 $shadowbrown: rgba(41, 31, 14, 0.5);
 $white: rgba(256, 256, 256, 1);
 
+$primary: $warmgrey;
+
+* .has-white-text {
+    color: $white;
+}
+
+* .is-primary {
+    background-color: $primary;
+}
+
+* .is-green {
+    background-color: $leafgreen;
+}
+
 // Typography
 
 $family-serif: 'Lora', serif;
 $family-primary: $family-serif;
-$family-headers: 'Montserrat', sans-serif;
+$family-headers: 'Raleway', sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $family-headers;
 
 }
+
+
+// Layouts
 
 #site-nav {
     background-color: $shadowbrown;
@@ -49,5 +66,3 @@ h1, h2, h3, h4, h5, h6 {
 
     color: $white;
 }
-
-$primary: $warmgrey;
