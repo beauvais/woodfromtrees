@@ -1,10 +1,21 @@
-//colours
+// Colours
 
 $warmgrey: rgba(245, 242, 240, 0.9);
 $stonegrey: rgba(189, 172, 154, 0.8);
 $leafgreen: rgba(169, 194, 31, 0.9);
 $shadowbrown: rgba(41, 31, 14, 0.5);
 $white: rgba(256, 256, 256, 1);
+
+// Typography
+
+$family-serif: 'Lora', serif;
+$family-primary: $family-serif;
+$family-headers: 'Montserrat', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $family-headers;
+
+}
 
 #site-nav {
     background-color: $shadowbrown;
@@ -14,7 +25,7 @@ $white: rgba(256, 256, 256, 1);
 }
 
 .has-hero-image {
-    background-image: url("/images/tree-hero.jpg");
+    background-image: url("/images/spoon-hero.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
