@@ -5,19 +5,19 @@
   "main": "gulpfile.js",
   "dependencies": {
     "bulma": "^0.5.3",
-    "npm": "^5.7.1"
+    "npm": "^5.8.0"
   },
   "devDependencies": {
-    "clean-css": "^4.1.9",
-    "concurrently": "^3.5.0",
+    "clean-css": "^4.1.11",
+    "concurrently": "^3.5.1",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.4.0",
     "gulp-inline-source": "^3.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "node-sass-magic-importer": "^5.0.0-alpha.16",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass-magic-importer": "^5.1.2",
     "rimraf": "^2.6.2",
     "uncss": "^0.15.0"
   },
