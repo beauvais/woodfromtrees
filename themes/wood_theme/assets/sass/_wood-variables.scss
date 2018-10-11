@@ -1,0 +1,78 @@
+// Colours
+
+$warmgrey: rgba(245, 242, 240, 0.9);
+$stonegrey: rgba(189, 172, 154, 0.8);
+$leafgreen: rgba(169, 194, 31, 0.9);
+$shadowbrown: rgba(41, 31, 14, 0.5);
+$white: rgba(256, 256, 256, 1);
+
+$primary: $warmgrey;
+
+* .has-white-text {
+    color: $white;
+}
+
+* .is-primary {
+    background-color: $primary;
+}
+
+* .is-green {
+    background-color: $leafgreen;
+}
+
+// Typography
+
+$family-serif: 'Lora', serif;
+$family-primary: $family-serif;
+$family-headers: 'Raleway', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $family-headers;
+
+}
+
+
+// Layouts
+
+#site-nav {
+    background-color: $shadowbrown;
+    color: white;
+
+    :hover {}
+}
+
+$navbar-height: 4.3rem;
+$navbar-item-img-max-height: 3.583rem;
+
+.has-hero-image {
+    @extend .hero;
+    background-image: url("/images/spoon-hero.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    @include touch {
+        background-attachment: scroll;
+    }
+
+}
+
+.hero-node {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100%;
+    top: 0;
+    z-index: -1000;
+}
+
+.wood-title {
+    @extend .title;
+
+    color: $white;
+}
